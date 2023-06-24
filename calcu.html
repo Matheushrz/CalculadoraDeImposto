@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Imposto de Renda 2023</title>
+  <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Imposto de Renda 2023</h1>
+    <!-- Formulário para cálculo do Imposto de Renda Anual -->
+<div class="form-container">
+  <h2>Imposto de Renda Anual</h2>
+  <form id="formulario-imposto-anual">
+    <label for="renda-anual">Renda Anual:</label>
+    <input type="number" id="renda-anual" required>
+    <button type="submit">Calcular</button>
+    <div id="resultado-anual" class="result-container"></div>
+  </form>
+</div>
+
+<!-- Formulário para cálculo do Imposto de Renda Mensal -->
+<div class="form-container">
+  <h2>Imposto de Renda Mensal</h2>
+  <form id="formulario-imposto-mensal">
+    <label for="renda-mensal">Renda Mensal:</label>
+    <input type="number" id="renda-mensal" required>
+    <button type="submit">Calcular</button>
+    <div id="resultado-mensal" class="result-container"></div>
+  </form>
+</div>
+</div>
+<!-- Rodapé do site -->
+<footer>
+  &copy; 2023 Todos os direitos reservados. <br>
+  Desenvolvido por Matheus.
+</footer>
+<script src="calcu.js"></script>
+</body>
+</html>

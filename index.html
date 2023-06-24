@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Login e Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo ao Site</h1>
+    <div class="form-container">
+      <!-- Formulário de login -->
+      <form id="login-form">
+        <h2>Login</h2>
+        <input type="text" placeholder="Email" required>
+        <input type="password" placeholder="Senha" required>
+        <button id="login-button" type="submit">Entrar</button>
+        <p class="message">Não tem uma conta? <a href="#" id="register-link">Cadastre-se</a></p>
+      </form>
+      <!-- Formulário de cadastro -->
+      <form id="register-form" style="display: none;">
+        <h2>Cadastro</h2>
+        <input type="text" id="register-name" placeholder="Nome" required>
+        <input type="email" id="register-email" placeholder="Email" required>
+        <input type="password" id="register-password" placeholder="Senha" required>
+        <button type="submit">Cadastrar</button>
+        <p class="message">Já tem uma conta? <a href="#" id="login-link">Faça login</a></p>
+      </form>
+    </div>
+  </div>
+  <!-- Rodape do site-->
+  <footer>
+    &copy; 2023 Todos os direitos reservados. <br>
+    Desenvolvido por Matheus.
+  </footer>
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
